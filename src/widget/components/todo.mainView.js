@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TaskView from "../templates/taskView"
+import Todo from "../templates/toDoView"
 
 function ToDoMainView(props) {
   // Declare a new state variable, which we'll call "count"
@@ -8,7 +8,7 @@ function ToDoMainView(props) {
 
   var renderTask = function(taskList) {
         return taskList.map((task, key) => {
-              return <TaskView key task = {task} />
+              return <Todo key task = {task} />
         });
   }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/App.css';
-import ToDaMainView from './components/to.mainView'
+import ToDaMainView from './components/todo.mainView'
 
 const MockTaskList = [
     {

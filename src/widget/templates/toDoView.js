@@ -1,6 +1,6 @@
 //import taskList from "../../../mockData/taksList";
 
-export default function TaskView({task}) {
+export default function ToDoView({task}) {
     return (
         <>
             <h1> Name : {task.name} </h1>
